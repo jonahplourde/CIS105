@@ -1,0 +1,44 @@
+# AI generated buggy code since I was not in class this day
+
+
+#import math
+#
+#def add_numbers(a, b):
+#    return a + b
+#
+#x = 10
+#Y = 5
+#z = add_numbers(x, y)
+#print('Sum is: ' + z)
+#
+#for i in range(5)
+#    print('Number:', i)
+#
+#numbers = [1, 2, 3, 4]
+#print(numbers[4])
+#
+#if x = 10:
+#    print('x is ten')
+#
+#print(math.sqr(16))
+
+import math
+
+def add_numbers(a, b):
+    return a + b
+
+x = 10
+y = 5
+z = add_numbers(x, y)
+print('Sum is: ' + z)
+
+for i in range(5):
+    print('Number:', i)
+
+numbers = [1, 2, 3, 4]
+print(numbers[4])
+
+if x := 10:
+    print('x is ten')
+
+print(math.sqr(16))
