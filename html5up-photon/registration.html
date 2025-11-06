@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Registration | CS105 Introduction to Programming</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Navigation -->
+			<nav id="nav" style="position: fixed; top: 0; width: 100%; background: rgba(45, 45, 45, 0.75); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: 1.2em; z-index: 1000; text-align: center; border-bottom: 1px solid rgba(212, 175, 55, 0.2); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);">
+				<ul style="list-style: none; margin: 0; padding: 0; display: inline-flex; gap: 2.5em;">
+					<li><a href="index.html" style="color: #d4af37; text-decoration: none; font-weight: 500; font-size: 1em; letter-spacing: 0.05em; transition: all 0.3s;">Home</a></li>
+					<li><a href="syllabus.html" style="color: #d4af37; text-decoration: none; font-weight: 500; font-size: 1em; letter-spacing: 0.05em; transition: all 0.3s;">Syllabus</a></li>
+					<li><a href="registration.html" style="color: #d4af37; text-decoration: none; font-weight: 500; font-size: 1em; letter-spacing: 0.05em; transition: all 0.3s;">Registration</a></li>
+					<li><a href="contact.html" style="color: #d4af37; text-decoration: none; font-weight: 500; font-size: 1em; letter-spacing: 0.05em; transition: all 0.3s;">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<span class="icon solid major fa-user-plus"></span>
+					<h1>Course <strong>Registration</strong><br />
+					Join CS105 Today</h1>
+					<p>Enroll in the next session and start your<br />
+					programming journey with expert guidance</p>
+				</div>
+			</section>
+
+		<!-- Registration Form -->
+			<section id="registration" class="main style1">
+				<div class="container">
+					<header class="major">
+						<h2>Registration Form</h2>
+					</header>
+					<p>Fill out the form below to register for CS105 Introduction to Programming. All fields marked with * are required.</p>
+
+					<form method="post" action="#">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall">
+								<label for="first-name">First Name *</label>
+								<input type="text" name="first-name" id="first-name" value="" placeholder="John" required />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<label for="last-name">Last Name *</label>
+								<input type="text" name="last-name" id="last-name" value="" placeholder="Doe" required />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<label for="email">Email Address *</label>
+								<input type="email" name="email" id="email" value="" placeholder="john.doe@example.com" required />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<label for="phone">Phone Number</label>
+								<input type="tel" name="phone" id="phone" value="" placeholder="(555) 123-4567" />
+							</div>
+							<div class="col-12">
+								<label for="experience">Programming Experience Level *</label>
+								<select name="experience" id="experience" required>
+									<option value="">- Select Experience Level -</option>
+									<option value="none">No prior experience</option>
+									<option value="basic">Basic (some self-study)</option>
+									<option value="intermediate">Intermediate (some courses)</option>
+									<option value="other">Other</option>
+								</select>
+							</div>
+							<div class="col-12">
+								<label for="schedule">Preferred Schedule *</label>
+								<select name="schedule" id="schedule" required>
+									<option value="">- Select Preferred Schedule -</option>
+									<option value="weekday-morning">Weekday Morning (9:00 AM - 12:00 PM)</option>
+									<option value="weekday-evening">Weekday Evening (6:00 PM - 9:00 PM)</option>
+									<option value="weekend">Weekend (Saturday/Sunday)</option>
+									<option value="flexible">Flexible</option>
+								</select>
+							</div>
+							<div class="col-12">
+								<label for="goals">What are your learning goals? *</label>
+								<textarea name="goals" id="goals" placeholder="Tell us why you want to learn programming and what you hope to achieve..." rows="4" required></textarea>
+							</div>
+							<div class="col-12">
+								<h4>How did you hear about this course?</h4>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="referral-social" name="referral" value="social">
+									<label for="referral-social">Social Media</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="referral-friend" name="referral" value="friend">
+									<label for="referral-friend">Friend/Colleague</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="referral-web" name="referral" value="web">
+									<label for="referral-web">Website Search</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="referral-school" name="referral" value="school">
+									<label for="referral-school">School/University</label>
+								</div>
+								<div class="col-4 col-12-small">
+									<input type="radio" id="referral-other" name="referral" value="other">
+									<label for="referral-other">Other</label>
+								</div>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="agreement" name="agreement" required>
+								<label for="agreement">I agree to the course terms and policies *</label>
+							</div>
+							<div class="col-6 col-12-small">
+								<input type="checkbox" id="newsletter" name="newsletter">
+								<label for="newsletter">Subscribe to course updates and newsletters</label>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Submit Registration" class="primary" /></li>
+									<li><input type="reset" value="Reset Form" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+
+					<hr class="major" />
+
+					<h2>Course Details</h2>
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<h3>Schedule Options</h3>
+							<ul>
+								<li><strong>Spring Session:</strong> March 15 - June 7, 2024</li>
+								<li><strong>Summer Session:</strong> June 10 - August 30, 2024</li>
+								<li><strong>Fall Session:</strong> September 9 - December 1, 2024</li>
+							</ul>
+							<p>Each session includes 24 classes (90 minutes each) with flexible scheduling options available.</p>
+						</div>
+						<div class="col-6 col-12-medium">
+							<h3>Pricing & Payment</h3>
+							<ul>
+								<li><strong>Full Course:</strong> $599 (Early bird: $549)</li>
+								<li><strong>Student Discount:</strong> 20% off with valid ID</li>
+								<li><strong>Payment Plans:</strong> Available upon request</li>
+								<li><strong>Refund Policy:</strong> Full refund within 7 days of first class</li>
+							</ul>
+							<p>Financial assistance may be available for qualified students.</p>
+						</div>
+					</div>
+
+					<ul class="actions special" style="margin-top: 3em;">
+						<li><a href="syllabus.html" class="button">View Syllabus</a></li>
+						<li><a href="index.html" class="button">Back to Home</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; CS105 Introduction to Programming</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/form-validation.js"></script>
+
+	</body>
+</html>
+
